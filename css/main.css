@@ -27,6 +27,9 @@ Mobile View Header Styling
 /*********
 Mobile Links Styling
 *********/
+.subPageNav {
+	display: none;
+}
 
 .nav {
 	padding: 15px;
@@ -173,7 +176,7 @@ media query
 
 	.logo {
 		height: 80px;
-		font-size: .80em;
+		font-size: .70em;
 		float: left;
 		border-bottom: none;
 		width: 30%;
@@ -182,6 +185,7 @@ media query
 	}
 
 	.nav {
+		display: block;
 		float: right;
 		width: 70%;
 		padding: 0;
@@ -196,10 +200,9 @@ media query
 		display: inline-block;
 		margin: 10px;
 		padding: 10px;
-		font-size: 1.25em;
 		background-color: #005696;
 		border-radius: 8px;
-		font-size: 1em;
+		font-size: .8em;
 	}
 
 	.nav li a {
