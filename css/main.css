@@ -125,7 +125,10 @@ main Area Styling
 	text-align: center;
 }
 
-.emailLink a {
+.emailLink a,
+.denLinks a,
+.docLink a {
+	text-decoration: none;
 	color: #eee;
 	background-color: #005696;
 	border-radius: 4px;
@@ -257,6 +260,15 @@ media query
 	.cal {
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.training {
+		width: 80%;
+	}
+
+	.denLinks {
+		width: 18%;
+		float: right;
 	}
 
 }
