@@ -146,6 +146,12 @@ h3 {
 	line-height: 2em;
 }
 
+.denLinks a {
+	display: block;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
 /*********
 Mobile Footer Styling
 *********/
